@@ -1,0 +1,21 @@
+name: readmission
+channels:
+  - anaconda-fusion
+  - defaults
+dependencies:
+  - json5=0.9.1=py_0
+  - numpy=1.18.1=py37h7241aed_0
+  - python=3.7.6=h359304d_2
+  - seaborn=0.10.0=py_0
+  - pip:
+    - keras==2.1.2
+    - matplotlib==3.2.1
+    - pandas==1.0.3
+    - plotly==4.7.1
+    - psycopg2==2.8.5
+    - scikit-learn==0.23.0
+    - tensorboard==2.2.1
+    - tensorflow==2.2.0
+    - tensorflow-estimator==2.2.0
+
+
