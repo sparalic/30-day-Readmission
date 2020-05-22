@@ -233,13 +233,3 @@ from (select *,
       from hours_entered) as b
 where b.repeated_measures=1);
 
-
---counts 
-select count(distinct subject_id) from mimiciii.readmission; --n=38507
-select count(distinct subject_id) from mimiciii.comorbitites_table; --n=38605
-select count(distinct subject_id) from mimiciii.timeseries_table; --n=38482
-select count(distinct subject_id) from mimiciii.timseries_table_avg; --n=35813 patients
-
-select count(*) from mimiciii.physio_table_avg;
-
-select * from mimiciii.d_labitems;
